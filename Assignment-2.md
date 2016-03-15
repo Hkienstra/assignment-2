@@ -22,13 +22,13 @@ Strategy T: to accept or reject Y $\Rightarrow$ T only accepts if: $$Y\ge X$$
 
 *Pay offs:* 
 
-$$U_A(Y, Accept)=2X-Y$$
+\[U_A(Y, Accept)=2X-Y\]
 
-$$U_A(Y, Reject)=0$$
+\[U_A(Y, Reject)=0\]
 
-$$U_T(Y, Accept)=Y$$
+\[U_T(Y, Accept)=Y\]
 
-$$U_T(Y, Reject)=X$$
+\[U_T(Y, Reject)=X\]
 
 b)
 ===
