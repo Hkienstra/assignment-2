@@ -29,6 +29,8 @@ U_T(Y, Accept)=Y
 U_T(Y, Reject)=X
 \end{center}
 
+Frikandel
+
 b)
 ===
 
