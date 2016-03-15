@@ -16,20 +16,15 @@ T will only accept Y if $$Y\ge X$$
 
 A beliefs X is drawn from CDF $F(X)=X(2-X)$, T knows own X
 
-Strategy A: Bid $\Rightarrow$ $$Y [0, {\infty}]$$
+Strategy A: Bid $$\Rightarrow Y [0, {\infty}]$$
 
 Strategy T: to accept or reject Y $\Rightarrow$ T only accepts if: $$Y\ge X$$
 
 *Pay offs:* 
-
-\begin{center}
-U_A(Y, Accept)=2X-Y\
-U_A(Y, Reject)=0
-U_T(Y, Accept)=Y
-U_T(Y, Reject)=X
-\end{center}
-
-Frikandel
+$$U_A(Y, Accept)=2X-Y$$
+$$U_A(Y, Reject)=0$$
+$$U_T(Y, Accept)=Y$$
+$$U_T(Y, Reject)=X$$
 
 b)
 ===
@@ -54,12 +49,12 @@ c)
 Firm value is distributed over [0.1] 
 
 
-T will only accept Y if: $$Y\ge X$$
-A can bid below or higher than 1, if bid is equal or higher than 1 T will always accept (max firm value=1). 
+T will only accept Y if: $$\Rightarrow Y\ge X$$
+A can bid below or higher than 1, if bid is equal or higher than 1 T will always accept (max firm value=1) 
 
-$$E(X|X\le Y)$$ is the expected X of firm that accepts Y. 
+$$\Rightarrow E(X|X\le Y)$$ is the expected X of firm that accepts Y. 
 
-$$E(X|X\le Y)=\frac{\int_{0}^{Y} x*f(x) dx }{F(Y)}$$
+$$\Rightarrow E(X|X\le Y)=\frac{\int_{0}^{Y} x*f(x) dx }{F(Y)}$$
 
 $$f(x)=-2x+2$$
 
@@ -75,9 +70,9 @@ $$F(Y)=Y(2-Y)$$
 
 $$E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$
 
-The expected value of a firm if it accepts is $$E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$ if $Y\le 1$, if $Y\ge 1$ all types will accept, expected value of all types is $$\frac{1}{3}$$. 
+The expected value of a firm if it accepts is $$= E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$ if $Y\le 1$, if $Y\ge 1$ all types will accept, expected value of all types is $$\Rightarrow \frac{1}{3}$$. 
 
-Pay off A if $Y\le 1:$ $$2x-Y=2( \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y})-Y$$
+Pay off A if $Y\le 1:$ $$= 2x-Y=2( \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y})-Y$$
 
 which is $\le0$ on interval [0,1]. 
 
@@ -91,12 +86,12 @@ A can generate profit from buying T, because it values it higher than T's own ma
 
 2 a)
 ===
-\begin{tabular}{ l | c || r | }
-  \hline			
-  L,L & L,W \\
-  W,L & W,H \\
-  \hline  
-\end{tabular}
+$${tabular}{ l | c || r | }
+  $$hline			
+  L,L & L,W $$
+  W,L & W,H $$
+  $$hline  
+$$end{tabular}
 
 b)
 ===
