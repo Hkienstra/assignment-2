@@ -7,76 +7,65 @@
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="buttondown.css" type="text/css" />
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
 <h1 id="game-theory-2">Game Theory 2</h1>
 <h2 id="assignment-1">Assignment 1</h2>
 <h1 id="a">1 a)</h1>
 <p>A has 1 type. Types of T are different firm values (x) distributed over [0.1].</p>
-<p><span class="math inline">\(A_A\)</span> bids Y to take over T, Y distributed over [0, <span class="math inline">\(\infty\)</span>].</p>
-<p><span class="math inline">\(A_T\)</span>= reject or accept Y</p>
-<p>T will only accept Y if <span class="math display">\[Y\ge X\]</span></p>
-<p>A beliefs X is drawn from CDF <span class="math inline">\(F(X)=X(2-X)\)</span>, T knows own X</p>
-<p>Strategy A: Bid <span class="math inline">\(\Rightarrow\)</span> <span class="math display">\[Y [0, {\infty}]\]</span></p>
-<p>Strategy T: to accept or reject Y <span class="math inline">\(\Rightarrow\)</span> T only accepts if: <span class="math display">\[Y\ge X\]</span></p>
-<p><em>Pay offs:</em></p>
-\begin{center}
-U_A(Y, Accept)=2X-Y\
-U_A(Y, Reject)=0
-U_T(Y, Accept)=Y
-U_T(Y, Reject)=X
-\end{center}
-<p>Frikandel</p>
+<p><span class="math inline"><em>A</em><sub><em>A</em></sub></span> bids Y to take over T, Y distributed over [0, <span class="math inline">∞</span>].</p>
+<p><span class="math inline"><em>A</em><sub><em>T</em></sub></span>= reject or accept Y</p>
+<p>T will only accept Y if <br /><span class="math display"><em>Y</em> ≥ <em>X</em></span><br /></p>
+<p>A beliefs X is drawn from CDF <span class="math inline"><em>F</em>(<em>X</em>)=<em>X</em>(2 − <em>X</em>)</span>, T knows own X</p>
+<p>Strategy A: Bid <br /><span class="math display">⇒<em>Y</em>[0, ∞]</span><br /></p>
+<p>Strategy T: to accept or reject Y <span class="math inline">⇒</span> T only accepts if: <br /><span class="math display"><em>Y</em> ≥ <em>X</em></span><br /></p>
+<p><em>Pay offs:</em> <br /><span class="math display"><em>U</em><sub><em>A</em></sub>(<em>Y</em>, <em>A</em><em>c</em><em>c</em><em>e</em><em>p</em><em>t</em>)=2<em>X</em> − <em>Y</em></span><br /> <br /><span class="math display"><em>U</em><sub><em>A</em></sub>(<em>Y</em>, <em>R</em><em>e</em><em>j</em><em>e</em><em>c</em><em>t</em>)=0</span><br /> <br /><span class="math display"><em>U</em><sub><em>T</em></sub>(<em>Y</em>, <em>A</em><em>c</em><em>c</em><em>e</em><em>p</em><em>t</em>)=<em>Y</em></span><br /> <br /><span class="math display"><em>U</em><sub><em>T</em></sub>(<em>Y</em>, <em>R</em><em>e</em><em>j</em><em>e</em><em>c</em><em>t</em>)=<em>X</em></span><br /></p>
 <h1 id="b">b)</h1>
-<p><span class="math display">\[E(X)= \int^{\infty}_{-\infty} x *f(x) \, dx \]</span></p>
-<p><span class="math display">\[F(X)=X(2-X)=X^2+2X\]</span></p>
-<p><span class="math display">\[f(X)=F&#39;=-2x+2\]</span></p>
-<p><span class="math display">\[E(X)=\int_{0}^{1} x(-2x+2) dx \]</span></p>
-<p><span class="math display">\[=\int_{0}^{1} -2x^2+2 dx= \]</span></p>
-<p><span class="math display">\[\frac{-2}{3}X^3+X^2\]</span></p>
-<p><span class="math display">\[=\frac{-2}{3}*1+1^2=\frac{1}{3}\]</span></p>
+<p><br /><span class="math display"><em>E</em>(<em>X</em>)=∫<sub>−∞</sub><sup>∞</sup><em>x</em> * <em>f</em>(<em>x</em>) <em>d</em><em>x</em></span><br /></p>
+<p><br /><span class="math display"><em>F</em>(<em>X</em>)=<em>X</em>(2 − <em>X</em>)=<em>X</em><sup>2</sup> + 2<em>X</em></span><br /></p>
+<p><br /><span class="math display"><em>f</em>(<em>X</em>)=<em>F</em>′= − 2<em>x</em> + 2</span><br /></p>
+<p><br /><span class="math display"><em>E</em>(<em>X</em>)=∫<sub>0</sub><sup>1</sup><em>x</em>(−2<em>x</em> + 2)<em>d</em><em>x</em></span><br /></p>
+<p><br /><span class="math display">=∫<sub>0</sub><sup>1</sup> − 2<em>x</em><sup>2</sup> + 2<em>d</em><em>x</em>=</span><br /></p>
+<p><br /><span class="math display">$$\frac{-2}{3}X^3+X^2$$</span><br /></p>
+<p><br /><span class="math display">$$=\frac{-2}{3}*1+1^2=\frac{1}{3}$$</span><br /></p>
 <h1 id="c">c)</h1>
 <p>Firm value is distributed over [0.1]</p>
-<p>T will only accept Y if: <span class="math display">\[Y\ge X\]</span> A can bid below or higher than 1, if bid is equal or higher than 1 T will always accept (max firm value=1).</p>
-<p><span class="math display">\[E(X|X\le Y)\]</span> is the expected X of firm that accepts Y.</p>
-<p><span class="math display">\[E(X|X\le Y)=\frac{\int_{0}^{Y} x*f(x) dx }{F(Y)}\]</span></p>
-<p><span class="math display">\[f(x)=-2x+2\]</span></p>
-<p><span class="math display">\[=\int_{0}^{Y} x(-2x+2) dx= \]</span></p>
-<p><span class="math display">\[=\int_{0}^{Y} (-2x^2+2)  dx= \]</span></p>
-<p><span class="math display">\[=[\frac{-2}{3}X^3+X^2]^{X=Y}_{X=0}\]</span></p>
-<p><span class="math display">\[=\frac{-2}{3}Y^3+Y^2\]</span></p>
-<p><span class="math display">\[F(Y)=Y(2-Y)\]</span></p>
-<p><span class="math display">\[E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}\]</span></p>
-<p>The expected value of a firm if it accepts is <span class="math display">\[E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}\]</span> if <span class="math inline">\(Y\le 1\)</span>, if <span class="math inline">\(Y\ge 1\)</span> all types will accept, expected value of all types is <span class="math display">\[\frac{1}{3}\]</span>.</p>
-<p>Pay off A if <span class="math inline">\(Y\le 1:\)</span> <span class="math display">\[2x-Y=2( \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y})-Y\]</span></p>
-<p>which is <span class="math inline">\(\le0\)</span> on interval [0,1].</p>
-<p>Payoff A if <span class="math inline">\(Y\ge1\)</span> <span class="math display">\[=2*\frac{1}{3}-Y\le0\]</span></p>
+<p>T will only accept Y if: <br /><span class="math display">⇒<em>Y</em> ≥ <em>X</em></span><br /> A can bid below or higher than 1, if bid is equal or higher than 1 T will always accept (max firm value=1)</p>
+<p><br /><span class="math display">⇒<em>E</em>(<em>X</em>|<em>X</em> ≤ <em>Y</em>)</span><br /> is the expected X of firm that accepts Y.</p>
+<p><br /><span class="math display">$$\Rightarrow E(X|X\le Y)=\frac{\int_{0}^{Y} x*f(x) dx }{F(Y)}$$</span><br /></p>
+<p><br /><span class="math display"><em>f</em>(<em>x</em>)= − 2<em>x</em> + 2</span><br /></p>
+<p><br /><span class="math display">=∫<sub>0</sub><sup><em>Y</em></sup><em>x</em>(−2<em>x</em> + 2)<em>d</em><em>x</em>=</span><br /></p>
+<p><br /><span class="math display">=∫<sub>0</sub><sup><em>Y</em></sup>(−2<em>x</em><sup>2</sup> + 2)<em>d</em><em>x</em>=</span><br /></p>
+<p><br /><span class="math display">$$=[\frac{-2}{3}X^3+X^2]^{X=Y}_{X=0}$$</span><br /></p>
+<p><br /><span class="math display">$$=\frac{-2}{3}Y^3+Y^2$$</span><br /></p>
+<p><br /><span class="math display"><em>F</em>(<em>Y</em>)=<em>Y</em>(2 − <em>Y</em>)</span><br /></p>
+<p><br /><span class="math display">$$E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$</span><br /></p>
+<p>The expected value of a firm if it accepts is <br /><span class="math display">$$= E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$</span><br /> if <span class="math inline"><em>Y</em> ≤ 1</span>, if <span class="math inline"><em>Y</em> ≥ 1</span> all types will accept, expected value of all types is <br /><span class="math display">$$\Rightarrow \frac{1}{3}$$</span><br />.</p>
+<p>Pay off A if <span class="math inline"><em>Y</em> ≤ 1:</span> <br /><span class="math display">$$= 2x-Y=2( \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y})-Y$$</span><br /></p>
+<p>which is <span class="math inline">≤0</span> on interval [0,1].</p>
+<p>Payoff A if <span class="math inline"><em>Y</em> ≥ 1</span> <br /><span class="math display">$$=2*\frac{1}{3}-Y\le0$$</span><br /></p>
 <p>Nash equilibrium is for A to bid 0.</p>
 <h1 id="d">d)</h1>
 <p>A can generate profit from buying T, because it values it higher than T's own management does. However T only accepts bids above own value, on average as you lower bid the probability that target firm has good value decreases, creating an adverse selection problem.</p>
 <h1 id="a-1">2 a)</h1>
-\begin{tabular}{ l | c || r | }
-  \hline            
-  L,L &amp; L,W \\
-  W,L &amp; W,H \\
-  \hline  
-\end{tabular}
+<p><br /><span class="math display"><em>t</em><em>a</em><em>b</em><em>u</em><em>l</em><em>a</em><em>r</em><em>l</em>|<em>c</em>||<em>r</em>|</span><br />hline<br />
+L,L &amp; L,W <br /><span class="math display">$$
+  W,L &amp; W,H $$</span><br /> <br /><span class="math display"><em>h</em><em>l</em><em>i</em><em>n</em><em>e</em></span><br />end{tabular}</p>
 <h1 id="b-1">b)</h1>
-<p><span class="math display">\[\pi=[V((a-q_1(L)-q_2(L)-C_L)\cdot q_1(L))+(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))+V((a-q_1(H)-q_2(H)-C_L)\cdot q_1(H))+(1-V)((a-q_1(H)-q_2(H)-C_L)\cdot q_1(L))]\]</span></p>
-<p><span class="math display">\[\pi_1&#39;(L) \Rightarrow q_1(L) \frac{[a-q_2(L)-c_L]V+[a-q_2(H)-c_L]1-V}{2}\]</span></p>
-<p><span class="math display">\[\pi_1&#39;(H) \Rightarrow q_1(H)= \frac{[a-q_2(L)-c_H]V+[a-q_2(H)-c_H]1-V}{2}\]</span></p>
-<p><span class="math display">\[\pi_1&#39;(L) \Rightarrow q_2(L) \frac{[a-q_1(L)-c_L]V+[a-q_1(H)-c_L]1-V}{2}\]</span></p>
-<p><span class="math display">\[\pi_2&#39;(H) \Rightarrow q_2(H)= \frac{[a-q_1(L)-c_H]V+[a-q_1(H)-c_H]1-V}{2}\]</span></p>
+<p><br /><span class="math display"><em>π</em> = [<em>V</em>((<em>a</em> − <em>q</em><sub>1</sub>(<em>L</em>)−<em>q</em><sub>2</sub>(<em>L</em>)−<em>C</em><sub><em>L</em></sub>)⋅<em>q</em><sub>1</sub>(<em>L</em>)) + (1 − <em>V</em>)((<em>a</em> − <em>q</em><sub>1</sub>(<em>L</em>)−<em>q</em><sub>2</sub>(<em>H</em>)−<em>C</em><sub><em>L</em></sub>)⋅<em>q</em><sub>1</sub>(<em>L</em>)) + <em>V</em>((<em>a</em> − <em>q</em><sub>1</sub>(<em>H</em>)−<em>q</em><sub>2</sub>(<em>H</em>)−<em>C</em><sub><em>L</em></sub>)⋅<em>q</em><sub>1</sub>(<em>H</em>)) + (1 − <em>V</em>)((<em>a</em> − <em>q</em><sub>1</sub>(<em>H</em>)−<em>q</em><sub>2</sub>(<em>H</em>)−<em>C</em><sub><em>L</em></sub>)⋅<em>q</em><sub>1</sub>(<em>L</em>))]</span><br /></p>
+<p><br /><span class="math display">$$\pi_1'(L) \Rightarrow q_1(L) \frac{[a-q_2(L)-c_L]V+[a-q_2(H)-c_L]1-V}{2}$$</span><br /></p>
+<p><br /><span class="math display">$$\pi_1'(H) \Rightarrow q_1(H)= \frac{[a-q_2(L)-c_H]V+[a-q_2(H)-c_H]1-V}{2}$$</span><br /></p>
+<p><br /><span class="math display">$$\pi_1'(L) \Rightarrow q_2(L) \frac{[a-q_1(L)-c_L]V+[a-q_1(H)-c_L]1-V}{2}$$</span><br /></p>
+<p><br /><span class="math display">$$\pi_2'(H) \Rightarrow q_2(H)= \frac{[a-q_1(L)-c_H]V+[a-q_1(H)-c_H]1-V}{2}$$</span><br /></p>
 <h1 id="c-1">c)</h1>
 <p>A strategy for i is how much to produce given that j is expected to certain Q determined wheter it has low cost or high cost.</p>
 <h1 id="d-1">d)</h1>
-<p>Assuming symmetry of firm 1 &amp; 2 <span class="math display">\[q_1(L)=q_2(L)\]</span> &amp; <span class="math display">\[q_1(H)=q_2(H)\]</span></p>
-<p><span class="math display">\[\Rightarrow q(L)=\frac{a-(1+V)q(H)-c_L}{2+V}\]</span> <span class="math display">\[\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}\]</span></p>
+<p>Assuming symmetry of firm 1 &amp; 2 <br /><span class="math display"><em>q</em><sub>1</sub>(<em>L</em>)=<em>q</em><sub>2</sub>(<em>L</em>)</span><br /> &amp; <br /><span class="math display"><em>q</em><sub>1</sub>(<em>H</em>)=<em>q</em><sub>2</sub>(<em>H</em>)</span><br /></p>
+<p><br /><span class="math display">$$\Rightarrow q(L)=\frac{a-(1+V)q(H)-c_L}{2+V}$$</span><br /> <br /><span class="math display">$$\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}$$</span><br /></p>
 <h1 id="a-2">1.3 a)</h1>
 <p>With k=0.5 the game is a prisoners dilemma with the pure strategy Nash equilibrium (Fight, Fight).</p>
 <p>With k=2 the game is a type of coordination game which is called chicken game. This game has two pure strategy Nash equilibria which are (Fight,Accomodate) and (Accomodate,Fight).</p>
 <h1 id="b-2">b)</h1>
-<p>Type: <span class="math display">\[\theta_1=(k=0.5,k=2)\]</span> <span class="math display">\[\theta_2=(k=0.5\times p,k=2\times(1-p))\]</span> Action: A={Accomodate,Fight}</p>
+<p>Type: <br /><span class="math display"><em>θ</em><sub>1</sub> = (<em>k</em> = 0.5, <em>k</em> = 2)</span><br /> <br /><span class="math display"><em>θ</em><sub>2</sub> = (<em>k</em> = 0.5 × <em>p</em>, <em>k</em> = 2 × (1 − <em>p</em>))</span><br /> Action: A={Accomodate,Fight}</p>
 </body>
 </html>
