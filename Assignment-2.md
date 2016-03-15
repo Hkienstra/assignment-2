@@ -39,14 +39,14 @@ $$E(X)=\int_{0}^{1} x(-2x+2) dx $$
 
 $$=\int_{0}^{1} -2x^2+2 dx= $$
 
-$$\frac{-2}{3}X^3+X^2$$
+$$=\frac{-2}{3}X^3+X^2$$
 
 $$=\frac{-2}{3}*1+1^2=\frac{1}{3}$$
 
 c)
 ===
   
-Firm value is distributed over [0.1] 
+Firm value is distributed over $$[0.1]$$ 
 
 
 T will only accept Y if: $$\Rightarrow Y\ge X$$
@@ -70,7 +70,7 @@ $$F(Y)=Y(2-Y)$$
 
 $$E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$
 
-The expected value of a firm if it accepts is $$= E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$ if $Y\le 1$, if $Y\ge 1$ all types will accept, expected value of all types is $$\Rightarrow \frac{1}{3}$$. 
+The expected value of a firm if it accepts is $$= E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}$$ if $Y\le 1$, if $Y\ge 1$ all types will accept, expected value of all types is $$\Rightarrow \frac{1}{3}$$ 
 
 Pay off A if $Y\le 1:$ $$= 2x-Y=2( \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y})-Y$$
 
@@ -107,7 +107,7 @@ A strategy for i is how much to produce given that j is expected to certain Q de
 d)
 ===
 Assuming symmetry of firm 1 & 2
-$$q_1(L)=q_2(L)$$ & $$q_1(H)=q_2(H)$$
+$q_1(L)=q_2(L) & q_1(H)=q_2(H)$
 
 $$\Rightarrow q(L)=\frac{a-(1+V)q(H)-c_L}{2+V}$$
 $$\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}$$
@@ -122,7 +122,7 @@ b)
 ===
 Type: $$\theta_1=(k=0.5,k=2)$$
 $$\theta_2=(k=0.5\times p,k=2\times(1-p))$$
-Action: A={Accomodate,Fight}
+Action: $$A={Accomodate,Fight}$$
 
 
 
