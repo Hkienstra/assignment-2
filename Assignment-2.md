@@ -107,7 +107,7 @@ A strategy for i is how much to produce given that j is expected to certain Q de
 d)
 ===
 Assuming symmetry of firm 1 & 2
-$q_1(L)=q_2(L)$ $\text{&}$ $q_1(H)=q_2(H)$
+$q_1(L)=q_2(L)$  $\text{and}$  $q_1(H)=q_2(H)$
 
 $$\Rightarrow q(L)=\frac{a-(1+V)q(H)-c_L}{2+V}$$
 $$\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}$$
