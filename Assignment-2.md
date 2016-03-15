@@ -86,12 +86,6 @@ A can generate profit from buying T, because it values it higher than T's own ma
 
 2 a)
 ===
-$${tabular}{ l | c || r | }
-  $$hline			
-  L,L & L,W $$
-  W,L & W,H $$
-  $$hline  
-$$end{tabular}
 
 b)
 ===
